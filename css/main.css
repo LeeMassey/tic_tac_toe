@@ -1,0 +1,16 @@
+#container_main {
+	display: flex;
+	justify-content: center;
+}
+
+.container_gameboard {
+	display: grid;
+	width:456px;
+	grid-template-columns: auto auto auto;
+}
+
+.game_cell {
+	width: 150px;
+	height: 150px;
+	border: 1px solid black;
+}
