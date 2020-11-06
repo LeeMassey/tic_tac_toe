@@ -3,7 +3,12 @@
 	justify-content: center;
 }
 
-.container_gameboard {
+#display_winner {
+	width: 20%;
+	padding: 20px;
+}
+
+#container_gameboard {
 	display: grid;
 	grid-template-columns: auto auto auto;
 }
